@@ -20,7 +20,7 @@ function palindromeString(x) {
     console.log(x[2])
 
     let reverse = ""
-    for (let i = x.length - 1; i > 0; i--) {
+    for (let i = x.length - 1; i >= 0; i--) {
         reverse += x[i]
     }
     return x === reverse
